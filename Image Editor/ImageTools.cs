@@ -56,7 +56,6 @@ namespace Image_Editor
             Bitmap bmp = new Bitmap(image.Width, image.Height, PixelFormat.Format24bppRgb);
             Graphics g = Graphics.FromImage(bmp);
             g.DrawImageUnscaled(image.ActiveLayerBitmap, 0, 0);
-            g.Dispose();
             image.ActiveLayerBitmap = bmp;
         }
         public static void ToARGB(EditableImage image)
