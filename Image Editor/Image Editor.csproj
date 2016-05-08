@@ -109,6 +109,7 @@
     <Compile Include="SelectionTypeForm.Designer.cs">
       <DependentUpon>SelectionTypeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SimpleBrush.cs" />
     <Compile Include="Viewport.cs" />
     <EmbeddedResource Include="CreateForm.resx">
       <DependentUpon>CreateForm.cs</DependentUpon>
